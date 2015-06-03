@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>SQLite.Core.Universal</id>
+        <version>3.8.11</version>
+        <authors>v.leschenko@vitaliy.org</authors>
+        <owners>v.leschenko@vitaliy.org</owners>
+        <licenseUrl>https://github.com/vlechenko/SQLite.Core/blob/master/README.md</licenseUrl>
+        <projectUrl>https://github.com/vlechenko/SQLite.Core</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>SQLite Core Library for Windows Universal Platform</description>
+        <releaseNotes />
+        <copyright>Copyright 2015 Vitaliy Leschenko</copyright>
+        <tags>SQLite</tags>
+    </metadata>
+    <files>
+        <file src="build\uap\SQLite.Core.Universal.targets" target="build\win81\SQLite.Core.Universal.targets" />
+
+        <file src="..\SQLite.Core\SQLite.Core.Universal\bin\ARM\Release\SQLite.Core.Universal.dll" target="lib\win81-hidden\ARM\SQLite.Core.Universal.dll" />
+        <file src="..\SQLite.Core\SQLite.Core.Universal\bin\ARM\Release\SQLite.Core.winmd" target="lib\win81-hidden\ARM\SQLite.Core.winmd" />
+
+        <file src="..\SQLite.Core\SQLite.Core.Universal\bin\x64\Release\SQLite.Core.Universal.dll" target="lib\win81-hidden\x64\SQLite.Core.Universal.dll" />
+        <file src="..\SQLite.Core\SQLite.Core.Universal\bin\x64\Release\SQLite.Core.winmd" target="lib\win81-hidden\x64\SQLite.Core.winmd" />
+
+        <file src="..\SQLite.Core\SQLite.Core.Universal\bin\Win32\Release\SQLite.Core.Universal.dll" target="lib\win81-hidden\x86\SQLite.Core.Universal.dll" />
+        <file src="..\SQLite.Core\SQLite.Core.Universal\bin\Win32\Release\SQLite.Core.winmd" target="lib\win81-hidden\x86\SQLite.Core.winmd" />
+    </files>
+</package>

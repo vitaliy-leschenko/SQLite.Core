@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>SQLite.Core.WindowsPhone</id>
+        <version>3.8.11</version>
+        <authors>v.leschenko@vitaliy.org</authors>
+        <owners>v.leschenko@vitaliy.org</owners>
+        <licenseUrl>https://github.com/vlechenko/SQLite.Core/blob/master/README.md</licenseUrl>
+        <projectUrl>https://github.com/vlechenko/SQLite.Core</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>SQLite Core Library for Windows Phone 8.1</description>
+        <releaseNotes />
+        <copyright>Copyright 2015 Vitaliy Leschenko</copyright>
+        <tags>SQLite</tags>
+    </metadata>
+    <files>
+        <file src="build\wpa81\SQLite.Core.WindowsPhone.targets" target="build\wpa81\SQLite.Core.WindowsPhone.targets" />
+
+        <file src="..\SQLite.Core\SQLite.Core.WindowsPhone\bin\ARM\Release\SQLite.Core.WindowsPhone.dll" target="lib\wpa81-hidden\ARM\SQLite.Core.WindowsPhone.dll" />
+        <file src="..\SQLite.Core\SQLite.Core.WindowsPhone\bin\ARM\Release\SQLite.Core.winmd" target="lib\wpa81-hidden\ARM\SQLite.Core.winmd" />
+
+        <file src="..\SQLite.Core\SQLite.Core.WindowsPhone\bin\Win32\Release\SQLite.Core.WindowsPhone.dll" target="lib\wpa81-hidden\x86\SQLite.Core.WindowsPhone.dll" />
+        <file src="..\SQLite.Core\SQLite.Core.WindowsPhone\bin\Win32\Release\SQLite.Core.winmd" target="lib\wpa81-hidden\x86\SQLite.Core.winmd" />
+    </files>
+</package>

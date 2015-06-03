@@ -16,10 +16,10 @@
     <files>
         <file src="build\wpa81\SQLite.Core.WindowsPhone.targets" target="build\wpa81\SQLite.Core.WindowsPhone.targets" />
 
-        <file src="..\SQLite.Core\SQLite.Core.WindowsPhone\bin\ARM\Release\SQLite.Core.WindowsPhone.dll" target="lib\wpa81-hidden\ARM\SQLite.Core.WindowsPhone.dll" />
+        <file src="..\SQLite.Core\SQLite.Core.WindowsPhone\bin\ARM\Release\SQLite.Core.dll" target="lib\wpa81-hidden\ARM\SQLite.Core.dll" />
         <file src="..\SQLite.Core\SQLite.Core.WindowsPhone\bin\ARM\Release\SQLite.Core.winmd" target="lib\wpa81-hidden\ARM\SQLite.Core.winmd" />
 
-        <file src="..\SQLite.Core\SQLite.Core.WindowsPhone\bin\Win32\Release\SQLite.Core.WindowsPhone.dll" target="lib\wpa81-hidden\x86\SQLite.Core.WindowsPhone.dll" />
+        <file src="..\SQLite.Core\SQLite.Core.WindowsPhone\bin\Win32\Release\SQLite.Core.dll" target="lib\wpa81-hidden\x86\SQLite.Core.dll" />
         <file src="..\SQLite.Core\SQLite.Core.WindowsPhone\bin\Win32\Release\SQLite.Core.winmd" target="lib\wpa81-hidden\x86\SQLite.Core.winmd" />
     </files>
 </package>

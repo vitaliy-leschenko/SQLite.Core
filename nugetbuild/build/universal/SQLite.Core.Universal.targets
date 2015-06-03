@@ -4,7 +4,7 @@
         <Error  Text="$(MSBuildThisFileName) does not work correctly on '$(Platform)' platform. You need to specify platform (x86 / x64 or ARM)." />
     </Target>
     <ItemGroup>
-        <Reference Include="SQLite.Core">
+        <Reference Include="SQLite.Core.Universal">
             <HintPath>$(MSBuildThisFileDirectory)..\..\lib\win81-hidden\$(Platform)\SQLite.Core.winmd</HintPath>
         </Reference>
     </ItemGroup>

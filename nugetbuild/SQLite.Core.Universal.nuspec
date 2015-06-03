@@ -18,14 +18,11 @@
 
         <file src="..\SQLite.Core\SQLite.Core.Universal\bin\ARM\Release\SQLite.Core.dll" target="lib\win81-hidden\ARM\SQLite.Core.dll" />
         <file src="..\SQLite.Core\SQLite.Core.Universal\bin\ARM\Release\SQLite.Core.winmd" target="lib\win81-hidden\ARM\SQLite.Core.winmd" />
-        <file src="..\SQLite.Core\SQLite.Core.Universal\bin\ARM\Release\SQLite.Core.pri" target="lib\win81-hidden\ARM\SQLite.Core.pri" />
 
         <file src="..\SQLite.Core\SQLite.Core.Universal\bin\x64\Release\SQLite.Core.dll" target="lib\win81-hidden\x64\SQLite.Core.dll" />
         <file src="..\SQLite.Core\SQLite.Core.Universal\bin\x64\Release\SQLite.Core.winmd" target="lib\win81-hidden\x64\SQLite.Core.winmd" />
-        <file src="..\SQLite.Core\SQLite.Core.Universal\bin\x64\Release\SQLite.Core.pri" target="lib\win81-hidden\x64\SQLite.Core.pri" />
 
         <file src="..\SQLite.Core\SQLite.Core.Universal\bin\Win32\Release\SQLite.Core.dll" target="lib\win81-hidden\x86\SQLite.Core.dll" />
         <file src="..\SQLite.Core\SQLite.Core.Universal\bin\Win32\Release\SQLite.Core.winmd" target="lib\win81-hidden\x86\SQLite.Core.winmd" />
-        <file src="..\SQLite.Core\SQLite.Core.Universal\bin\Win32\Release\SQLite.Core.pri" target="lib\win81-hidden\x86\SQLite.Core.pri" />
     </files>
 </package>

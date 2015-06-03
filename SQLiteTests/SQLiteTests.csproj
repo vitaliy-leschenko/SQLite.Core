@@ -113,6 +113,9 @@
   </PropertyGroup>
   <ItemGroup>
     <!--A reference to the entire .Net Framework and Windows SDK are automatically included-->
+    <SDKReference Include="Microsoft.VCLibs, Version=14.0">
+      <Name>Microsoft Visual C++ 2015 Runtime Package for Windows Universal</Name>
+    </SDKReference>
     <SDKReference Include="MSTestFramework.Universal, Version=$(UnitTestPlatformVersion)" />
     <SDKReference Include="TestPlatform.Universal, Version=$(UnitTestPlatformVersion)" />
   </ItemGroup>
@@ -149,16 +152,17 @@
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SQLite.Core\SQLite.Core.Universal\SQLite.Core.Universal.vcxproj">
-      <Project>{aaccfc0f-a3a0-4898-8ef2-1eb98a04fd7d}</Project>
-      <Name>SQLite.Core.Universal</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <Import Project="..\packages\SQLite.Core.Universal.3.8.11\build\win81\SQLite.Core.Universal.targets" Condition="Exists('..\packages\SQLite.Core.Universal.3.8.11\build\win81\SQLite.Core.Universal.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\SQLite.Core.Universal.3.8.11\build\win81\SQLite.Core.Universal.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SQLite.Core.Universal.3.8.11\build\win81\SQLite.Core.Universal.targets'))" />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

@@ -272,6 +272,11 @@ namespace SQLite
             // sqlite3.lib provided by "SQL For Windows Phone" doesn't seem to define it
             return 1;	// Error
         }
+
+        int Sqlite3::sqlite3_limit(Database ^ db, int id, int val)
+        {
+            return ::sqlite3_limit(db ? db->Handle : nullptr, id, val);
+        }
     }
 }
 

@@ -4,7 +4,7 @@
         <Error  Text="$(MSBuildThisFileName) does not work correctly on '$(Platform)' platform. You need to specify platform (x86 or ARM)." />
     </Target>
     <ItemGroup>
-        <Reference Include="SQLite.Core">
+        <Reference Include="SQLite.Core.WindowsPhone">
             <HintPath>$(MSBuildThisFileDirectory)..\..\lib\wpa81-hidden\$(Platform)\SQLite.Core.winmd</HintPath>
         </Reference>
     </ItemGroup>

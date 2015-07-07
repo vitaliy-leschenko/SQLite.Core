@@ -5,9 +5,10 @@
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
   IgnorableNamespaces="uap mp">
 
-  <Identity Name="62057551-efac-4216-8d66-3bb268cbe8ff"
-            Publisher="CN=v.leschenko"
-            Version="1.0.0.0" />
+  <Identity
+    Name="cce6c297-b218-4912-abde-9394a03fb38a"
+    Publisher="CN=v.leschenko"
+    Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="62057551-efac-4216-8d66-3bb268cbe8ff" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
@@ -18,7 +19,7 @@
   </Properties>
 
   <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10069.0" MaxVersionTested="10.0.10069.0" />
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10158.0" MaxVersionTested="10.0.10158.0" />
   </Dependencies>
 
   <Resources>

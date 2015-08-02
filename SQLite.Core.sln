@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLite.Core.Shared", "SQLite.Core\SQLite.Core.Shared\SQLite.Core.Shared.vcxitems", "{BDD1A27A-D0DC-49E6-A8BA-DC237FC70279}"
 EndProject
@@ -22,10 +22,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLite.Native.Universal", "SQLite.Native\SQLite.Native.Universal\SQLite.Native.Universal.vcxproj", "{C3F2BA49-FEE9-494C-A430-EED34C82C82F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLite.Core.Universal", "SQLite.Core\SQLite.Core.Universal\SQLite.Core.Universal.vcxproj", "{AACCFC0F-A3A0-4898-8EF2-1EB98A04FD7D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6801E073-D28F-426D-942F-3BF6157A5273}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLiteTests", "SQLiteTests\SQLiteTests.csproj", "{55C643C8-E91C-4247-A1F3-387158EEEC02}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -115,24 +111,6 @@ Global
 		{AACCFC0F-A3A0-4898-8EF2-1EB98A04FD7D}.Release|x64.Build.0 = Release|x64
 		{AACCFC0F-A3A0-4898-8EF2-1EB98A04FD7D}.Release|x86.ActiveCfg = Release|Win32
 		{AACCFC0F-A3A0-4898-8EF2-1EB98A04FD7D}.Release|x86.Build.0 = Release|Win32
-		{55C643C8-E91C-4247-A1F3-387158EEEC02}.Debug|ARM.ActiveCfg = Debug|ARM
-		{55C643C8-E91C-4247-A1F3-387158EEEC02}.Debug|ARM.Build.0 = Debug|ARM
-		{55C643C8-E91C-4247-A1F3-387158EEEC02}.Debug|ARM.Deploy.0 = Debug|ARM
-		{55C643C8-E91C-4247-A1F3-387158EEEC02}.Debug|x64.ActiveCfg = Debug|x64
-		{55C643C8-E91C-4247-A1F3-387158EEEC02}.Debug|x64.Build.0 = Debug|x64
-		{55C643C8-E91C-4247-A1F3-387158EEEC02}.Debug|x64.Deploy.0 = Debug|x64
-		{55C643C8-E91C-4247-A1F3-387158EEEC02}.Debug|x86.ActiveCfg = Debug|x86
-		{55C643C8-E91C-4247-A1F3-387158EEEC02}.Debug|x86.Build.0 = Debug|x86
-		{55C643C8-E91C-4247-A1F3-387158EEEC02}.Debug|x86.Deploy.0 = Debug|x86
-		{55C643C8-E91C-4247-A1F3-387158EEEC02}.Release|ARM.ActiveCfg = Release|ARM
-		{55C643C8-E91C-4247-A1F3-387158EEEC02}.Release|ARM.Build.0 = Release|ARM
-		{55C643C8-E91C-4247-A1F3-387158EEEC02}.Release|ARM.Deploy.0 = Release|ARM
-		{55C643C8-E91C-4247-A1F3-387158EEEC02}.Release|x64.ActiveCfg = Release|x64
-		{55C643C8-E91C-4247-A1F3-387158EEEC02}.Release|x64.Build.0 = Release|x64
-		{55C643C8-E91C-4247-A1F3-387158EEEC02}.Release|x64.Deploy.0 = Release|x64
-		{55C643C8-E91C-4247-A1F3-387158EEEC02}.Release|x86.ActiveCfg = Release|x86
-		{55C643C8-E91C-4247-A1F3-387158EEEC02}.Release|x86.Build.0 = Release|x86
-		{55C643C8-E91C-4247-A1F3-387158EEEC02}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -146,6 +124,5 @@ Global
 		{41C7CD9F-0153-43E4-87ED-7858A641D4A3} = {78578F1E-595B-454A-9AD4-FB333CE2B25E}
 		{C3F2BA49-FEE9-494C-A430-EED34C82C82F} = {78578F1E-595B-454A-9AD4-FB333CE2B25E}
 		{AACCFC0F-A3A0-4898-8EF2-1EB98A04FD7D} = {758718FB-B45C-45BC-8442-8F615BFAC1CC}
-		{55C643C8-E91C-4247-A1F3-387158EEEC02} = {6801E073-D28F-426D-942F-3BF6157A5273}
 	EndGlobalSection
 EndGlobal

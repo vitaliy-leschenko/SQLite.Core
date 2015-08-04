@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>SQLite.Core.Universal-x86</id>
+    <version>3.8.11.150</version>
+    <authors>v.leschenko@vitaliy.org</authors>
+    <owners>v.leschenko@vitaliy.org</owners>
+    <licenseUrl>https://github.com/vlechenko/SQLite.Core/blob/master/README.md</licenseUrl>
+    <projectUrl>https://github.com/vlechenko/SQLite.Core</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SQLite Core Library for Windows Universal Platform x86</description>
+    <releaseNotes />
+    <copyright>Copyright 2015 Vitaliy Leschenko</copyright>
+    <tags>SQLite</tags>
+    <references>
+      <reference file="SQLite.Core.winmd" />
+    </references>
+  </metadata>
+  <files>
+    <file src="..\SQLite.Core\SQLite.Core.Universal\bin\Win32\Release\SQLite.Core.dll" target="lib\native\SQLite.Core.dll" />
+    <file src="..\SQLite.Core\SQLite.Core.Universal\bin\Win32\Release\SQLite.Core.winmd" target="lib\uap10.0\SQLite.Core.winmd" />
+  </files>
+</package>

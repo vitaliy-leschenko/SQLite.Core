@@ -11,11 +11,3 @@ Copy-Item ..\SQLite.Core\SQLite.Core.Universal\bin\x64\Release\SQLite.Core.dll s
 Copy-Item ..\SQLite.Core\SQLite.Core.Universal\bin\ARM\Release\SQLite.Core.winmd src\References\CommonConfiguration\ARM\SQLite.Core.winmd
 Copy-Item ..\SQLite.Core\SQLite.Core.Universal\bin\Win32\Release\SQLite.Core.winmd src\References\CommonConfiguration\x86\SQLite.Core.winmd
 Copy-Item ..\SQLite.Core\SQLite.Core.Universal\bin\x64\Release\SQLite.Core.winmd src\References\CommonConfiguration\x64\SQLite.Core.winmd
-
-if (Test-Path 'SQLite.Core.SDK.vsix')
-{
-  Remove-Item 'SQLite.Core.SDK.vsix'
-}
-
-Add-Type -A System.IO.Compression.FileSystem
-[IO.Compression.ZipFile]::CreateFromDirectory('src', 'SQLite.Core.SDK.vsix')

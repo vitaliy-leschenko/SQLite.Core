@@ -12,12 +12,9 @@
     <releaseNotes />
     <copyright>Copyright 2015 Vitaliy Leschenko</copyright>
     <tags>SQLite</tags>
-    <references>
-      <reference file="SQLite.Core.winmd" />
-    </references>
   </metadata>
   <files>
-    <file src="..\SQLite.Core\SQLite.Core.Universal\bin\x64\Release\SQLite.Core.dll" target="lib\uap10.0\SQLite.Core.dll" />
-    <file src="..\SQLite.Core\SQLite.Core.Universal\bin\x64\Release\SQLite.Core.winmd" target="lib\uap10.0\SQLite.Core.winmd" />
+    <file src="..\SQLite.Core\SQLite.Core.Universal\bin\x64\Release\SQLite.Core.dll" target="lib\uap\SQLite.Core.dll" />
+    <file src="..\SQLite.Core\SQLite.Core.Universal\bin\x64\Release\SQLite.Core.winmd" target="lib\uap\SQLite.Core.winmd" />
   </files>
 </package>

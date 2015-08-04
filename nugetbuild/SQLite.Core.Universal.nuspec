@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
-    <metadata>
-        <id>SQLite.Core.Universal</id>
-        <version>3.8.11.150</version>
-        <authors>v.leschenko@vitaliy.org</authors>
-        <owners>v.leschenko@vitaliy.org</owners>
-        <licenseUrl>https://github.com/vlechenko/SQLite.Core/blob/master/README.md</licenseUrl>
-        <projectUrl>https://github.com/vlechenko/SQLite.Core</projectUrl>
-        <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>SQLite Core Library for Windows Universal Platform</description>
-        <releaseNotes />
-        <copyright>Copyright 2015 Vitaliy Leschenko</copyright>
-        <tags>SQLite</tags>
-    </metadata>
-    <files>
-        <file src="SQLite.Core.Universal.json" target="runtime.json" />
-    </files>
+  <metadata>
+    <id>SQLite.Core.Universal</id>
+    <version>3.8.11.150</version>
+    <authors>v.leschenko@vitaliy.org</authors>
+    <owners>v.leschenko@vitaliy.org</owners>
+    <licenseUrl>https://github.com/vlechenko/SQLite.Core/blob/master/README.md</licenseUrl>
+    <projectUrl>https://github.com/vlechenko/SQLite.Core</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SQLite Core Library for Windows Universal Platform</description>
+    <releaseNotes />
+    <copyright>Copyright 2015 Vitaliy Leschenko</copyright>
+    <tags>SQLite</tags>
+  </metadata>
+  <files>
+    <file src="SQLite.Core.Universal.json" target="runtime.json" />
+  </files>
 </package>

@@ -17,7 +17,7 @@
     </references>
   </metadata>
   <files>
-    <file src="..\SQLite.Core\SQLite.Core.Universal\bin\ARM\Release\SQLite.Core.dll" target="lib\native\SQLite.Core.dll" />
+    <file src="..\SQLite.Core\SQLite.Core.Universal\bin\ARM\Release\SQLite.Core.dll" target="lib\uap10.0\SQLite.Core.dll" />
     <file src="..\SQLite.Core\SQLite.Core.Universal\bin\ARM\Release\SQLite.Core.winmd" target="lib\uap10.0\SQLite.Core.winmd" />
   </files>
 </package>
